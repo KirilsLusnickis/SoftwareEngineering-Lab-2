@@ -1,0 +1,10 @@
+#1 input=-1.0 expected='-1.0:invalid:rejected' actual='-1.0:invalid:rejected' -> PASS
+#2 input=0.0 expected='0.0:small:cost=5' actual='0.0:small:cost=5' -> PASS
+#3 input=0.5 expected='0.5:small:cost=5' actual='0.5:small:cost=5' -> PASS
+#4 input=1.0 expected='1.0:small:cost=5' actual='1.0:small:cost=5' -> PASS
+#5 input=1.1 expected='1.1:standard:cost=10' actual='1.1:standard:cost=10' -> PASS
+#6 input=5.0 expected='5.0:standard:cost=10' actual='5.0:standard:cost=10' -> PASS
+#7 input=5.1 expected='5.1:heavy:cost=20' actual='5.1:heavy:cost=20' -> PASS
+#8 input=20.0 expected='20.0:heavy:cost=20' actual='20.0:heavy:cost=20' -> PASS
+#9 input=20.1 expected='20.1:oversized:rejected' actual='20.1:oversized:rejected' -> PASS
+Summary: 9/9 passed.

@@ -1,0 +1,9 @@
+-1.0:invalid:rejected
+0.0:small:cost=5
+0.5:small:cost=5
+1.0:small:cost=5
+1.1:standard:cost=10
+5.0:standard:cost=10
+5.1:heavy:cost=20
+20.0:heavy:cost=20
+20.1:oversized:rejected
