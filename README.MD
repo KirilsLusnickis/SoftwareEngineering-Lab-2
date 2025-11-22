@@ -21,8 +21,8 @@ Create a black‑box test harness that demonstrates **Equivalence Class (EC) Par
 ### Sample Equivalence Classes and Boundary Value Analysis
 Breaking the input domain (weight in kg) into ECs and probing their borders:
 
-```
 ![Runner output](SoftwareEngineering-Lab-2/Lab2Graph.png)
+```
 Boundaries hit: -1 | 0 | 1 | 5 | 20 | 20.1
 Representative interiors: 0.5 (small), 1.1 (standard), 5.1 (heavy)
 ```
